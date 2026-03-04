@@ -515,7 +515,7 @@ export default function EuroBonusCalculator() {
               </span>
               {result.fuelSavedKg > 0.01 && <>
                 <span style={{ fontSize: 12, color: 'rgba(148,163,184,0.12)' }}>·</span>
-                <span style={{ fontSize: 12, fontWeight: 500, color: 'rgba(46,139,87,0.5)' }}>
+                <span style={{ fontSize: 12, fontWeight: 500, color: checkedWeight === 0 ? 'rgba(52,211,153,0.55)' : 'rgba(46,139,87,0.5)', transition: 'color 0.4s' }}>
                   {result.fuelSavedKg.toFixed(1)} kg saved
                 </span>
               </>}
