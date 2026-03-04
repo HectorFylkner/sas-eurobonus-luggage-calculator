@@ -16,7 +16,7 @@ const FARE_CONFIG = {
 
 const ROUTES = [
   { from: 'STK', to: 'CPH', fromCity: 'Stockholm',  toCity: 'Copenhagen', km: 525,  alpha: 3.85e-5, aircraft: 'A320neo' },
-  { from: 'STK', to: 'BCN', fromCity: 'Stockholm',  toCity: 'Barcelona',  km: 2498, alpha: 3.85e-5, aircraft: 'A320neo' },
+  { from: 'ARN', to: 'BCN', fromCity: 'Stockholm',  toCity: 'Barcelona',  km: 2498, alpha: 3.85e-5, aircraft: 'A320neo' },
   { from: 'CPH', to: 'JFK', fromCity: 'Copenhagen', toCity: 'New York',   km: 6198, alpha: 2.74e-5, aircraft: 'A330-300' },
   { from: 'CPH', to: 'NRT', fromCity: 'Copenhagen', toCity: 'Tokyo',      km: 8574, alpha: 2.40e-5, aircraft: 'A350-900' },
 ];
@@ -397,10 +397,10 @@ export default function EuroBonusCalculator() {
                 background: 'linear-gradient(135deg, #1E293B, #334155)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: 14, fontWeight: 700, color: 'rgba(148,163,184,0.5)',
-              }}>EL</div>
+              }}>DÅ</div>
               <div>
                 <div style={{ fontSize: 15, fontWeight: 700, color: 'white', letterSpacing: '-0.02em' }}>
-                  Erik Lindstr&ouml;m
+                  Daniel &Aring;kesson
                 </div>
                 <span style={{ fontSize: 12, fontWeight: 500, color: 'rgba(148,163,184,0.35)' }}>
                   Silver Member
